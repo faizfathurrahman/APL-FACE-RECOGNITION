@@ -1,0 +1,92 @@
+Traceback (most recent call last):
+  File "c:\Users\Leviathans\Downloads\prototype\app_v2 copy.py", line 133, in <lambda>
+    self.absen_button.clicked.connect(lambda: self.absen(user))  # Pass the entire user object
+                                              ^^^^^^^^^^^^^^^^
+  File "c:\Users\Leviathans\Downloads\prototype\app_v2 copy.py", line 170, in absen
+    spacer = QSpacerItem(20, 20, QSizePolicy.Minimum, QSizePolicy.Expanding)  # Ukuran spacer dapat disesuaikan
+                                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'QSizePolicy' has no attribute 'Minimum'
+Traceback (most recent call last):
+  File "c:\Users\Leviathans\Downloads\prototype\app_v2 copy.py", line 805, in <module>
+    window = FaceDetectionApp()
+             ^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Leviathans\Downloads\prototype\app_v2 copy.py", line 71, in __init__
+    self.show_main_menu()
+  File "c:\Users\Leviathans\Downloads\prototype\app_v2 copy.py", line 77, in show_main_menu
+    self.layout.addSpacerItem(QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding))
+                                                  ^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'QSizePolicy' has no attribute 'Minimum'
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 111, in login
+    self.show_admin_mode()
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 271, in show_admin_mode
+    grid_layout = QGridLayout()
+                  ^^^^^^^^^^^
+NameError: name 'QGridLayout' is not defined. Did you mean: 'QVBoxLayout'?
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 116, in login
+    self.show_admin_mode()
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 291, in show_admin_mode
+    btn_add_user.setIconSize(QSize(150, 150))
+                             ^^^^^
+NameError: name 'QSize' is not defined
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 117, in login
+    self.show_admin_mode()
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 340, in show_admin_mode
+    text_add_user.setAlignment(Qt.AlignmentFlag.AlignCenter)
+    ^^^^^^^^^^^^^
+NameError: name 'text_add_user' is not defined. Did you mean: 'btn_add_user'?
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 117, in login
+    self.show_admin_mode()
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 364, in show_admin_mode
+    self.layout.addWidget(btn_back)
+                          ^^^^^^^^
+NameError: name 'btn_back' is not defined
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 117, in login
+    self.show_admin_mode()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FaceDetectionApp' object has no attribute 'show_admin_mode'
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 304, in show_admin_mode
+    self.clear_layout_recursive(item.layout())  # Hapus layout yang bersarang
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FaceDetectionApp' object has no attribute 'clear_layout_recursive'
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 117, in login
+    self.show_admin_mode()
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 298, in show_admin_mode
+    self.clear_layout(self.layout)
+TypeError: FaceDetectionApp.clear_layout() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 117, in login
+    self.show_admin_mode()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FaceDetectionApp' object has no attribute 'show_admin_mode'
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 117, in login
+    self.show_admin_mode()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FaceDetectionApp' object has no attribute 'show_admin_mode'
+TypeError: invalid argument to sipBadCatcherResult()
+TypeError: invalid argument to sipBadCatcherResult()
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 345, in <lambda>
+    label_add_user.mousePressEvent = lambda event: handle_click(self.add_user)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 341, in handle_click
+    clear_layout()
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 307, in clear_layout
+    clear_layout(sub_layout)
+TypeError: FaceDetectionApp.show_admin_mode.<locals>.clear_layout() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 347, in <lambda>
+    label_view_history.mousePressEvent = lambda event: handle_click(self.view_history)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 341, in handle_click
+    clear_layout()
+  File "c:\Users\faizf\Documents\KULI-AH\Semester 5\Pemrograman\Apl-Face-Recognition\app_v2 copy.py", line 307, in clear_layout
+    clear_layout(sub_layout)
+TypeError: FaceDetectionApp.show_admin_mode.<locals>.clear_layout() takes 0 positional arguments but 1 was given
